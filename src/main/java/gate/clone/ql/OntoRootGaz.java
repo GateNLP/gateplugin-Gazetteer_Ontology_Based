@@ -545,10 +545,6 @@ public class OntoRootGaz extends DefaultGazetteer {
    * lookups to the additionalList and then extract the root later - if
    * considerHeuristicRules=true then separate words as proposed by these rules,
    * add new lookups to the additionalList and then extract the root later
-   * 
-   * @param List
-   *          <Lookup> lookups
-   * @throws ResourceInstantiationException
    */
   protected void addLookups(List<Lookup> lookups)
       throws ResourceInstantiationException {
@@ -799,34 +795,20 @@ public class OntoRootGaz extends DefaultGazetteer {
     this.useResourceUri = useResourceUri;
   }
 
-  /**
-   * @return the separateCamelCasedWords
-   */
   public Boolean getSeparateCamelCasedWords() {
     return separateCamelCasedWords;
   }
 
-  /**
-   * @param separateCamelCasedWords
-   *          the separateCamelCasedWords to set
-   */
   @CreoleParameter(comment = "Should this gazetteer separate camelCased "
       + "words, e.g. ProjectName into Project Name", defaultValue = "true")
   public void setSeparateCamelCasedWords(Boolean separateCamelCasedWords) {
     this.separateCamelCasedWords = separateCamelCasedWords;
   }
 
-  /**
-   * @return the propertiesToExclude
-   */
   public String getPropertiesToExclude() {
     return propertiesToExclude;
   }
 
-  /**
-   * @param propertiesToExclude
-   *          the propertiesToExclude to set
-   */
   @Optional
   @CreoleParameter(comment = "The list of property names to be excluded, "
       + "comma separated", defaultValue = "")
@@ -834,17 +816,10 @@ public class OntoRootGaz extends DefaultGazetteer {
     this.propertiesToExclude = propertiesToExclude;
   }
 
-  /**
-   * @return the propertiesToInclude
-   */
   public String getPropertiesToInclude() {
     return propertiesToInclude;
   }
 
-  /**
-   * @param propertiesToInclude
-   *          the propertiesToInclude to set
-   */
   @Optional
   @CreoleParameter(comment = "The list of property names to be included, "
       + "comma separated", defaultValue = "")
@@ -852,16 +827,10 @@ public class OntoRootGaz extends DefaultGazetteer {
     this.propertiesToInclude = propertiesToInclude;
   }
 
-  /**
-   * @return
-   */
   public Boolean getConsiderHeuristicRules() {
     return considerHeuristicRules;
   }
 
-  /**
-   * @param considerHeuristicRules
-   */
   @CreoleParameter(comment = "Should this gazetteer consider several "
       + "heuristic rules or not: the words containing spaces will be split; "
       + "for example, if 'pos tagger for spanish' would be analysed, 'for' "
