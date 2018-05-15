@@ -189,11 +189,6 @@ public class SerqlUtils {
   /**
    * This method is excluded from using at the moment as it is replaced by more
    * generic ones getPropertyRange and getPropertyDomain
-   * 
-   * @param firstUri
-   * @param secondUri
-   * @return
-   * @throws GateOntologyException
    */
   public static String getRelationsBtwTwoResourcesIsTakingTooMuchTime(
     String firstUri, String secondUri, Ontology ontology)
@@ -294,7 +289,7 @@ public class SerqlUtils {
   /**
    * This method retrieves range classes for object properties.
    * 
-   * @returns a table where first column is property uri and the second is a
+   * @return a table where first column is property uri and the second is a
    *          class uri which is defined to be the range of the given property.
    *          Note here that duplicate range classes (created because of way
    *          owlim works) are excluded and only specific ones are returned.
