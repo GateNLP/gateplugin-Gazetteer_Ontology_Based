@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!-- creole.xml for Ontology_Based_Gazetteer plugin -->
 <CREOLE-DIRECTORY>
-	<REQUIRES GROUP="uk.ac.gate.plugins" ARTIFACT="annie" VERSION="8.5-SNAPSHOT"/>
-	<REQUIRES GROUP="uk.ac.gate.plugins" ARTIFACT="tools" VERSION="8.5-SNAPSHOT"/>
+	<REQUIRES GROUP="uk.ac.gate.plugins" ARTIFACT="annie" VERSION="8.5"/>
+	<REQUIRES GROUP="uk.ac.gate.plugins" ARTIFACT="tools" VERSION="8.5"/>
 </CREOLE-DIRECTORY>
