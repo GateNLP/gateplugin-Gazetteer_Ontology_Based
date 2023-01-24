@@ -46,9 +46,9 @@
 	</developers>
 
 	<scm>
-		<connection>scm:git:git://github.com/GateNLP/gateplugin-Lang_German.git</connection>
-		<developerConnection>scm:git:git@github.com:GateNLP/gateplugin-Lang_German.git</developerConnection>
-		<url>https://github.com/GateNLP/gateplugin-Lang_German</url>
+		<connection>scm:git:git://github.com/GateNLP/gateplugin-Gazetteer_Ontology_Based.git</connection>
+		<developerConnection>scm:git:git@github.com:GateNLP/gateplugin-Gazetteer_Ontology_Based.git</developerConnection>
+		<url>https://github.com/GateNLP/gateplugin-Gazetteer_Ontology_Based</url>
 	</scm>
 
 
